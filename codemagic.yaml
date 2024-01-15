@@ -1,6 +1,6 @@
 definitions:
   env_versions: &env_versions
-    xcode: 14.2
+    xcode: latest
   triggering:
     push: &push_event
       events:
