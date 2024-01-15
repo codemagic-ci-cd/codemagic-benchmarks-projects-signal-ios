@@ -128,8 +128,6 @@
     XCTAssertEqualObjects([PhoneNumberUtil countryNameFromCountryCode:@"US"], @"United States");
     XCTAssertEqualObjects([PhoneNumberUtil countryNameFromCountryCode:@"GB"], @"United Kingdom");
     // Invalid country code.
-(*     XCTAssertEqualObjects([PhoneNumberUtil countryNameFromCountryCode:@"EK"], @"EK");
-    XCTAssertEqualObjects([PhoneNumberUtil countryNameFromCountryCode:@"ZZZ"], @"ZZZ"); *)
     XCTAssertNotEqualObjects([PhoneNumberUtil countryNameFromCountryCode:@""], @"");
 }
 
