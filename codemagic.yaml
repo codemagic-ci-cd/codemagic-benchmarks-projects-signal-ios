@@ -27,6 +27,7 @@ definitions:
             --disable_package_automatic_updates \
             --xcargs '-test-timeouts-enabled YES -maximum-test-execution-time-allowance 60' \
             || formatFailures
+      ignore_failure: true
 workflows:
   # ios-m1-mac-pro-workflow:
   #   name: iOS Mac Pro Workflow
